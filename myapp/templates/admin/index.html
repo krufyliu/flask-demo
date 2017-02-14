@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Admin</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <h1>Admin index</h1> 
+  <p>A sample of Js code</p>
+  <div style="width:100%">
+  {% autoescape false %}
+    {% code 'javascript' %}
+    var name = 'Hellokitty';
+    function foo() {
+      console.log('Hello ' + name);
+    }
+    {% endcode %}
+  {% endautoescape %}
+  </div>
+</body>
+</html>

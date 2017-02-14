@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.py
+MyApp.egg-info/PKG-INFO
+MyApp.egg-info/SOURCES.txt
+MyApp.egg-info/dependency_links.txt
+MyApp.egg-info/not-zip-safe
+MyApp.egg-info/requires.txt
+MyApp.egg-info/top_level.txt
+myapp/__init__.py
+myapp/forms.py
+myapp/models.py
+myapp/views.py
+myapp/admin/__init__.py
+myapp/admin/views.py
+myapp/main/__init__.py
+myapp/main/views.py
+myapp/templates/admin/index.html
